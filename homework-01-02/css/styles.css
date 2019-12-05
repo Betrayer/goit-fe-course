@@ -67,6 +67,19 @@ input[type="radio"].visually-hidden {
 }
 
 .load-more-button {
+  display: inline-block;
+  width: 164;
+  height: 60;
+  border: 1px solid rgb(98, 98, 98);
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  position: center;
+}
+
+.load-more-button a {
+  display: block;
+  text-decoration: none;
   font-family: "Playfair Display", "Arial", sans-serif;
   color: rgb(98, 98, 98);
   font-size: 20px;
@@ -104,4 +117,12 @@ html {
 
 .article-list-item:not(:nth-child(2n)){
   margin-right: 60px;
+}
+
+.article-list-item:nth-last-child(-n + 2){
+  margin-bottom: 0;
+}
+
+.main-articles {
+  margin-bottom: 58px;
 }
