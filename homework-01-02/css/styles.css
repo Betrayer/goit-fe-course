@@ -17,6 +17,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .main-menu a:hover,
@@ -25,20 +26,21 @@ img {
 }
 
 .main-menu-list a {
+  display: block;
   text-transform: uppercase;
   list-style: none;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
   text-decoration: none;
   color: rgb(98, 98, 98);
 }
 
 .main-menu-list {
   text-align: center;
-  margin-top: 85px;
-  margin-bottom: 98px;
-  padding: 0;
-  font-family: "Playfair Display", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
+  padding-top: 85px;
+  padding-bottom: 98px;
+  font-size: 0;
   list-style: none;
 }
 
@@ -54,6 +56,7 @@ img {
   color: rgb(98, 98, 98);
   font-size: 14px;
   line-height: 24px;
+  margin: 0px;
 }
 
 .article-theme {
@@ -62,7 +65,8 @@ img {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  margin-top: 24px;
+  margin: 0px;
+  margin-bottom: 32px;
 }
 
 .article-name {
@@ -70,6 +74,8 @@ img {
   color: rgb(98, 98, 98);
   font-size: 30px;
   line-height: 36px;
+  margin: 0px;
+  margin-bottom: 36px;
 }
 
 .load-more-button {
@@ -80,8 +86,8 @@ img {
   background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
+  margin-top: 52px;
   margin-left: 360px;
-  margin-bottom: 70px;
 }
 
 .load-more-button a {
@@ -126,7 +132,7 @@ html {
 .article-list-item {
   width: 420px;
   display: inline-block;
-  margin-bottom: 130px;
+  margin-bottom: 135px;
 }
 
 .article-list-item:not(:nth-child(2n)) {
@@ -138,5 +144,5 @@ html {
 }
 
 .main-articles {
-  margin-bottom: 58px;
+  padding-bottom: 70px;
 }
