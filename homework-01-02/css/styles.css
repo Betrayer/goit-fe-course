@@ -27,14 +27,28 @@ input[type="radio"].visually-hidden {
 /* MENU */
 
 .page-name {
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 30px;
   line-height: 32px;
+  font-weight: 300;
   text-transform: uppercase;
   color: rgb(81, 81, 81);
   text-decoration: none;
 }
 
+.logo:first-letter {
+  color: rgb(26, 188, 156);
+  font-weight: 800;
+}
+
+.logo {
+  padding-top: 38px;
+  padding-left: 30px;
+}
+
 .main-menu {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 11px;
   list-style: none;
@@ -49,33 +63,107 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
+.main-menu a:hover,
+.main-menu a:focus {
+  color: rgb(26, 188, 156);
+}
+
 .main-menu li {
   display: inline-block;
   float: left;
 }
 
 .main-menu li:not(:last-child) {
-    margin-right: 34px;
+  margin-right: 34px;
 }
 
+.main-menu li:last-child {
+  margin-right: 30px;
+}
 
 /* FEATURED-PRODUCTS */
 
 .featured-products-list {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 800;
   font-size: 48px;
   line-height: 32px;
   text-transform: uppercase;
   color: rgb(81, 81, 81);
+  text-align: center;
+}
+
+h2::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: rgb(26, 188, 156);
+  content: "";
+  margin: 32px auto 92px;
 }
 
 .offers-list {
-  font-size: ;
-  line-height: ;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.offers li {
+  display: block;
+  width: 255px;
+  height: 322px;
+  float: left;
 }
 
 .offers-list a {
-  color: rgb(15, 1, 1);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
+  background-color: rgb(81, 81, 81);
+}
+
+.list-item-price {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(140, 140, 140);
+}
+
+/* NEWS LIST */
+
+.news-header {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: rgb(81, 81, 81);
+  text-align: center;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list-header,
+.news-list-text {
+  margin: 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: block;
+  width: 350px;
+  height: 540px;
+  float: left;
 }
