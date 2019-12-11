@@ -30,7 +30,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  }
+}
 
 /* MENU */
 
@@ -126,7 +126,7 @@ img {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 32px;  
+  line-height: 32px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
@@ -183,7 +183,7 @@ img {
 }
 
 .news-list-header {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -202,7 +202,7 @@ img {
 }
 
 .news-list-text {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -235,7 +235,7 @@ img {
 .news-list a {
   display: inline-block;
   text-decoration: none;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: rgb(255, 255, 255);
