@@ -42,7 +42,7 @@ img {
   text-transform: uppercase;
   color: rgb(81, 81, 81);
   text-decoration: none;
-  margin-left: 30px;
+  margin: 0px;
   padding: 0px;
   float: left;
 }
@@ -114,7 +114,8 @@ img {
   height: 7px;
   background-color: rgb(26, 188, 156);
   content: "";
-  margin: 32px auto;
+  margin: auto;
+  margin-top: 32px;
 }
 
 .offers-list {
@@ -122,7 +123,6 @@ img {
   margin-left: 30px;
   padding: 0;
   margin: 0;
-  margin-bottom: 98px;
 }
 
 .offers li {
@@ -145,6 +145,10 @@ img {
 .item-list-details:hover,
 .item-list-details:focus {
   background-color: rgb(26, 188, 156);
+}
+
+.offers {
+  padding-bottom: 92px;
 }
 
 .offers-list a {
@@ -226,13 +230,14 @@ img {
   font-size: 14px;
   line-height: 26px;
   color: rgb(85, 82, 82);
+  margin: 0px;
   margin-bottom: 20px;
 }
 
 .news-list {
   list-style: none;
-  margin-left: 30px;
-  padding: 0;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 .news-list-item {
