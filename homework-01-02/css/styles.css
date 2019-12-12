@@ -267,6 +267,7 @@ img {
   padding: 18px 44px;
 }
 
-.read-more-link a:hover,
-.read-more-link a:focus {
+.read-more-link:hover,
+.read-more-link:focus {
+  background-color: rgb(255, 153, 0);
 }
