@@ -142,9 +142,14 @@ img {
   background-color: rgb(140, 140, 140);
 }
 
-.item-list-details:hover,
-.item-list-details:focus {
+.offer-link:hover div,
+.offer-link:focus div{
   background-color: rgb(26, 188, 156);
+}
+
+.offer-link:hover p,
+.offer-link:focus p{
+  background-color: rgb(127, 217, 199);
 }
 
 .offers {
@@ -173,7 +178,7 @@ img {
   margin-right: 0;
 }
 
-.offer-list-item:nth-last-child(-n + 2) {
+.offer-list-item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
 
@@ -236,7 +241,7 @@ img {
 
 .news-list {
   list-style: none;
-  margin-left: 0px;
+  margin: 0px;
   padding: 0px;
 }
 
