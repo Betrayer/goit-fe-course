@@ -39,87 +39,145 @@
           width="1600px"
           height="600px"
         />
-        <div class="text-holder">
-          <h2 class="tours">affordable paris tours</h2>
-          <p class="tours-info">city tours / tour tickets / tour guides</p>
-        </div>
-        <div class="controls">
-          <button class="action action-back"></button>
-          <button class="action action-forth"></button>
+        <div class="main-overlay">
+          <div class="text-holder">
+            <h2 class="tours">affordable paris tours</h2>
+            <p class="tours-info">city tours / tour tickets / tour guides</p>
+          </div>
+          <div class="controls">
+            <button
+              class="action action-back inactive-button"
+              disabled
+            ></button>
+            <button class="action action-forth"></button>
+          </div>
         </div>
       </section>
       <section class="new-collection">
         <div class="wrapper">
           <h2 class="goods">new collection</h2>
-          <ul class="goods-list clearfix">
-            <li class="goods-list-item">
-              <a href="#" class="item-link">
-                <img
-                  src="./images/img_1.png"
-                  alt="blue_tshirt"
-                  class="item-image"
-                  width="255px"
-                  height="322px"
-                />
-                <div class="item-info clearfix">
-                  <p class="item-name">blue tshirt</p>
-                  <p class="item-price">$26</p>
-                </div>
-              </a>
-            </li>
-            <li class="goods-list-item">
-              <a href="#" class="item-link">
-                <img
-                  src="./images/img_2.png"
-                  alt="woman_dress"
-                  class="item-image"
-                  width="255px"
-                  height="322px"
-                />
-                <div class="item-info clearfix">
-                  <p class="item-name">woman shirt</p>
-                  <p class="item-price">$31</p>
-                </div>
-              </a>
-            </li>
-            <li class="goods-list-item">
-              <a href="#" class="item-link">
-                <img
-                  src="./images/img_3.png"
-                  alt="yellow_tshirt"
-                  class="item-image"
-                  width="255px"
-                  height="322px"
-                />
-                <div class="item-info clearfix">
-                  <p class="item-name">yellow tshirt</p>
-                  <p class="item-price">$21</p>
-                </div>
-              </a>
-            </li>
-            <li class="goods-list-item">
-              <a href="#" class="item-link">
-                <img
-                  src="./images/img_4.png"
-                  alt="light_dress"
-                  class="item-image"
-                  width="255px"
-                  height="322px"
-                />
-                <div class="item-info clearfix">
-                  <p class="item-name">cool lingerie</p>
-                  <p class="item-price">$56</p>
-                </div>
-              </a>
-            </li>
-          </ul>
+          <div class="goods-wrap">
+            <ul class="goods-list clearfix">
+              <li class="goods-list-item">
+                <a href="#" class="item-link">
+                  <img
+                    src="./images/img_1.png"
+                    alt="blue_tshirt"
+                    class="item-image"
+                    width="255px"
+                    height="322px"
+                  />
+                  <div class="item-info clearfix">
+                    <p class="item-name">blue tshirt</p>
+                    <p class="item-price">$26</p>
+                  </div>
+                </a>
+              </li>
+              <li class="goods-list-item">
+                <a href="#" class="item-link">
+                  <img
+                    src="./images/img_2.png"
+                    alt="woman_dress"
+                    class="item-image"
+                    width="255px"
+                    height="322px"
+                  />
+                  <div class="item-info clearfix">
+                    <p class="item-name">woman shirt</p>
+                    <p class="item-price">$31</p>
+                  </div>
+                </a>
+              </li>
+              <li class="goods-list-item">
+                <a href="#" class="item-link">
+                  <img
+                    src="./images/img_3.png"
+                    alt="yellow_tshirt"
+                    class="item-image"
+                    width="255px"
+                    height="322px"
+                  />
+                  <div class="item-info clearfix">
+                    <p class="item-name">yellow tshirt</p>
+                    <p class="item-price">$21</p>
+                  </div>
+                </a>
+              </li>
+              <li class="goods-list-item">
+                <a href="#" class="item-link">
+                  <img
+                    src="./images/img_4.png"
+                    alt="light_dress"
+                    class="item-image"
+                    width="255px"
+                    height="322px"
+                  />
+                  <div class="item-info clearfix">
+                    <p class="item-name">cool lingerie</p>
+                    <p class="item-price">$56</p>
+                  </div>
+                </a>
+              </li>
+              <div class="goods-overlay">
+                <ul class="actions-list">
+                  <li class="action-list-item">
+                    <button class="action-link like">
+                      <img
+                        src="./images/like.png"
+                        alt="like"
+                        class="action-image"
+                        width="50px"
+                        height="50px"
+                      />
+                    </button>
+                  </li>
+                  <li class="action-list-item">
+                    <button class="action-link compare">
+                      <img
+                        src="./images/compare.png"
+                        alt="like"
+                        class="action-image"
+                        width="50px"
+                        height="50px"
+                      />
+                    </button>
+                  </li>
+                  <li class="action-list-item">
+                    <button class="action-link wait">
+                      <img
+                        src="./images/wait.png"
+                        alt="like"
+                        class="action-image"
+                        width="50px"
+                        height="50px"
+                      />
+                    </button>
+                  </li>
+                  <li class="action-list-item">
+                    <button class="action-link cart">
+                      <img
+                        src="./images/cart.png"
+                        alt="like"
+                        class="action-image"
+                        width="50px"
+                        height="165px"
+                      />
+                      <p class="cart-add">Add to cart</p>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
     <footer class="bottom">
-      <p class="info">
-        All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a>
-      </p>
+      <div class="container">
+        <p class="info">
+          All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>

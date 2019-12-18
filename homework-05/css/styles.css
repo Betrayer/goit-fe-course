@@ -42,6 +42,19 @@ html {
   box-sizing: border-box;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
 /* HEADER MENU */
 
 .logo {
@@ -131,37 +144,54 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
 }
 
 .action {
-    top: 50%;
-    transform: translateY(-50%);
-    display: inline-block;
-    border: none;
-    width: 104px;
-    height: 104px;
-    background-color: rgba(78, 198, 171, .65);
-    position: absolute;
-      
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+
+  width: 104px;
+  height: 104px;
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .action-back {
-    left: 0;
+  left: 0;
+  left: 15%;
+  background-image: url(../images/back.png);
 }
 
 .action-forth {
-    right: 0;
+  right: 0;
+  right: 15%;
+  background-image: url(../images/forth.png);
 }
 
-/* .image-section span {
-    font-size: 100px;
-    line-height: 11px;
-    color: rgb(255, 255, 255);
-} */
+.main-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 2);
+  opacity: 0.522;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
 
+.image-section:hover .main-overlay {
+  visibility: visible;
+}
 
-/* MAIN */
+.inactive-button {
+  background-color: rgba(78, 198, 171, 0.65);
+}
+
+/* GOODS */
 
 .goods {
   font-family: "Roboto", "Arial", sans-serif;
@@ -196,6 +226,10 @@ html {
   padding: 14px;
 }
 
+.item-info {
+  background-color: rgb(50, 50, 50);
+}
+
 .item-price {
   float: right;
   padding: 14px;
@@ -220,17 +254,56 @@ html {
   margin-right: 30px;
 }
 
+.new-collection {
+  padding-bottom: 100px;
+}
+
+.goods-wrap {
+  position: relative;
+}
+
+.goods-overlay {
+  background-color: rgba(0, 0, 0, .55);
+  width: 235px;
+  height: 261px;
+  /* visibility: hidden; */
+  position: absolute;
+}
+
+.cart-add {
+  display: inline-block;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
 /* FOOTER */
+
+.container {
+  position: relative;
+  height: 90px;
+  background-color: rgb(50, 50, 50);
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .bottom p,
 .bottom a {
-    font-family: 'Open Sans', 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-    text-decoration: none;
-    text-align: center;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .bottom a {
-    color: rgb(70, 191, 169);
+  color: rgb(70, 191, 169);
 }
