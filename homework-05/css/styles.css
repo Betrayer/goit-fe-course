@@ -284,6 +284,14 @@ button {
   background-color: transparent;
 }
 
+.action-add {
+  width: 200px;
+}
+
+.action-add p {
+  float: right;
+}
+
 .goods-overlay {
   top: 0;
   background-color: rgba(0, 0, 0, 0.55);
