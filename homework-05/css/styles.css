@@ -215,6 +215,7 @@ button {
 
 .goods-list {
   list-style: none;
+  position: relative;
 }
 
 .new-collection li {
@@ -258,21 +259,45 @@ button {
   padding-bottom: 100px;
 }
 
-.goods-wrap {
-  position: relative;
+.action-link {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.action-like {
+  background-image: url(../images/like.png);
+}
+.action-compare {
+  background-image: url(../images/compare.png);
+}
+.action-wait {
+  background-image: url(../images/wait.png);
+}
+.action-add {
+  background-image: url(../images/cart.png);
+}
+
+.action-link {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
 }
 
 .goods-overlay {
-  background-color: rgba(0, 0, 0, .55);
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.55);
   width: 235px;
   height: 261px;
   /* visibility: hidden; */
   position: absolute;
+  top: 11px;
+  left: 10px;
 }
 
 .cart-add {
   display: inline-block;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 32px;
   font-weight: 400;
