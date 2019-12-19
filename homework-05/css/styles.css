@@ -215,7 +215,6 @@ button {
 
 .goods-list {
   list-style: none;
-  position: relative;
 }
 
 .new-collection li {
@@ -251,6 +250,10 @@ button {
   background-color: rgb(50, 50, 50);
 }
 
+.goods-list-item {
+  position: relative;
+}
+
 .goods-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -259,10 +262,23 @@ button {
   padding-bottom: 100px;
 }
 
+.actions-list {
+  position: absolute;
+  left: 35px;
+  bottom: 75px;
+}
+
+.action-list-item:not(:last-child) {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
 .action-link {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid;
+  color: rgb(255, 255, 255);
 }
 
 .action-like {
@@ -275,17 +291,18 @@ button {
   background-image: url(../images/wait.png);
 }
 .action-add {
+  background-position: left 10px center;
   background-image: url(../images/cart.png);
 }
 
 .action-link {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   background-color: transparent;
 }
 
 .action-add {
-  width: 200px;
+  width: 160px;
 }
 
 .action-add p {
@@ -295,12 +312,14 @@ button {
 .goods-overlay {
   top: 0;
   background-color: rgba(0, 0, 0, 0.55);
-  width: 235px;
-  height: 261px;
-  /* visibility: hidden; */
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  width: 100%;
+  height: 322px;
+  opacity: 0.549;
+  visibility: hidden;
   position: absolute;
-  top: 11px;
-  left: 10px;
 }
 
 .cart-add {
@@ -311,6 +330,29 @@ button {
   font-weight: 400;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+  padding-right: 18px;
+}
+
+.goods-list-item:hover .goods-overlay,
+.goods-list-item:focus .goods-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.goods-list-item:hover .item-info,
+.goods-list-item:focus .item-info {
+  background-color: rgb(26, 188, 156);
+}
+
+.goods-list-item:hover .item-price,
+.goods-list-item:focus .item-price {
+  background-color: rgb(127, 217, 199);
+}
+
+.action-link:hover,
+.action-link:focus {
+  background-color: rgb(26, 188, 156);
+  border: none;
 }
 
 /* FOOTER */
