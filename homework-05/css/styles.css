@@ -297,6 +297,7 @@ button {
 
 .action-add {
   width: 160px;
+  background-color: rgb(50, 50, 50);
 }
 
 .action-add p {
