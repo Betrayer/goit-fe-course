@@ -21,7 +21,7 @@ input[type="radio"].visually-hidden {
   clear: both;
 }
 
-.wrapper {
+.container {
   width: 1110px;
   margin: 0 auto;
 }
@@ -152,7 +152,6 @@ button {
   top: 50%;
   transform: translateY(-50%);
   display: inline-block;
-
   width: 104px;
   height: 104px;
   background-color: rgb(26, 188, 156);
@@ -219,7 +218,6 @@ button {
 .new-collection li {
   float: left;
 }
-
 .item-name {
   float: left;
   padding: 14px;
@@ -357,7 +355,7 @@ button {
 
 /* FOOTER */
 
-.container {
+.wrapper {
   position: relative;
   height: 90px;
   background-color: rgb(50, 50, 50);
