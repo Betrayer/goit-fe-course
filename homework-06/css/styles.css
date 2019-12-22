@@ -98,7 +98,7 @@ a {
   color: rgb(243, 129, 129);
 }
 
-.menu-list:hover ::after {  
+.menu-list:hover ::after {
   visibility: visible;
 }
 
@@ -183,8 +183,33 @@ a {
   margin-left: 82px;
 }
 
-.services-item {
+.photography {
   background-image: url(../img/s_1.png);
+  background-repeat: no-repeat;
+}
+
+.web-design {
+  background-image: url(../img/s_2.png);
+  background-repeat: no-repeat;
+}
+
+.creativity {
+  background-image: url(../img/s_3.png);
+  background-repeat: no-repeat;
+}
+
+.ceo {
+  background-image: url(../img/s_4.png);
+  background-repeat: no-repeat;
+}
+
+.css {
+  background-image: url(../img/s_5.png);
+  background-repeat: no-repeat;
+}
+
+.digital {
+  background-image: url(../img/s_6.png);
   background-repeat: no-repeat;
 }
 
@@ -361,7 +386,7 @@ footer::before {
 }
 
 ::placeholder {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
