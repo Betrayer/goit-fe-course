@@ -232,8 +232,6 @@ button {
 }
 
 .team-info-holder {
-  height: 470px;
-  width: 380px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -252,6 +250,9 @@ button {
   top: 0px;
   left: 0px;
   visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .facebook {
@@ -285,11 +286,6 @@ button {
 .social-buttons {
   display: flex;
   justify-content: center;
-  height: 100%;
-}
-.socials {
-  display: flex;
-  align-items: center;
 }
 
 .social-buttons li:not(:last-child) {
@@ -333,6 +329,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 380px;
 }
 
 .team-info-holder:hover {
@@ -348,19 +345,18 @@ button {
 /* FOOTR */
 
 footer {
-  padding-top: 102px;
-  position: relative;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer::before {
-  position: absolute;
+.team::after {
+  margin: 0 auto;
   display: block;
-  width: 100%;
+  width: 1200px;
   height: 1px;
-  bottom: 62px;
+  margin-top: 80px;
   background-color: rgb(229, 229, 229);
   content: "";
 }
@@ -395,6 +391,7 @@ footer::before {
   height: 40px;
   width: 230px;
   border: 1px solid #e7e7e7;
+  border-right: none;
 }
 
 ::placeholder {
@@ -402,8 +399,12 @@ footer::before {
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
+  font-style: italic;
   color: rgb(204, 204, 204);
-  padding-left: 12px;
+}
+
+input {
+  padding-left: 15px;
 }
 
 footer .container {

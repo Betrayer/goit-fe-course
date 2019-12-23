@@ -224,6 +224,10 @@ button {
   height: 54px;
 }
 
+input {
+    padding-left: 15px;
+}
+
 ::placeholder {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
