@@ -210,62 +210,84 @@ button {
   object-fit: cover;
 }
 
-.test {
-    height: 100%;
-}
-
 .contact h2 {
   color: rgb(255, 255, 255);
 }
 
 .contact-form-input {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(204, 204, 204);
-    border-radius: 2px;
-    background-color: rgb(255, 255, 255);
-    width: 458px;
-    height: 54px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  width: 458px;
+  height: 54px;
 }
 
 ::placeholder {
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 700;
-    color: rgb(187, 187, 187);
-    text-transform: uppercase;
-    padding-top: 20px;
-    padding-left: 22px;
-}  
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: rgb(187, 187, 187);
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 22px;
+}
 
 .message-button {
-    border-radius: 3px;
-    background-color: rgb(254, 209, 54);
-    width: 240px;
-    height: 66px;
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  width: 240px;
+  height: 66px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: block;
+  margin-top: 30px;
+  margin-left: 350px;
 }
-  
+
 textarea {
-    resize: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(204, 204, 204);
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    width: 459px;
-    height: 100%;
+  resize: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 459px;
+  height: 100%;
+  outline: none;
 }
 
 .feedback-form {
-    display: flex;
-    width: 940px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  width: 940px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-wrapper {
+  width: 454px;
+}
+
+.text-area-wrapper {
+  width: 455px;
+}
+
+input:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+input:required:focus:invalid,
+textarea:required:focus:invalid {
+    border-color: rgb(255, 0, 0);
+}
+
+input:required:focus:valid,
+textarea:required:focus:valid {
+    border-color: rgb(0, 128, 0);
 }

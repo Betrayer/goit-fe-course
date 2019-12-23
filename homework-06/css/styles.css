@@ -124,6 +124,11 @@ button {
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 18px;
+  text-transform: lowercase;
+}
+
+.subheader::first-letter {
+  text-transform: uppercase;
 }
 
 .header {
@@ -146,7 +151,7 @@ button {
 
 .header::after {
   position: absolute;
-  top: 60px;
+  top: 120px;
   left: 50%;
   transform: translateX(-50%);
   display: block;
@@ -182,9 +187,12 @@ button {
 }
 
 .services-holder {
-  width: 300px;
   height: 70px;
   margin-left: 82px;
+}
+
+.services-item {
+  width: 392px;
 }
 
 .photography {
