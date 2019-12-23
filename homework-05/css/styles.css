@@ -342,6 +342,7 @@ button {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   padding-right: 18px;
+  margin-left: 45px;
 }
 
 .goods-list-item:hover .goods-overlay,
