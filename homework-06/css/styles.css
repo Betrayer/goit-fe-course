@@ -46,7 +46,7 @@ button {
 
 /* NAV & MENU */
 
-.wrapper {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -69,7 +69,7 @@ button {
 }
 
 .main-nav {
-  margin-top: 26px;
+  padding-top: 26px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 128px;
@@ -398,7 +398,7 @@ footer::before {
   padding-left: 12px;
 }
 
-footer .wrapper {
+footer .container {
   padding-bottom: 12px;
   display: flex;
   justify-content: space-between;
