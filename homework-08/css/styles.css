@@ -85,7 +85,7 @@ button {
 }
 
 .container {
-  width: 17.5rem;
+  width: 280px;
   margin: 0 auto;
 }
 
@@ -146,12 +146,10 @@ h1 {
 
 .log-in,
 .sign-up {
-  
   margin-top: 20px;
   width: 94px;
   height: 40px;
   background-color: transparent;
-  
   margin-bottom: 118px;
 }
 
@@ -159,7 +157,7 @@ h1 {
 .log-in:focus,
 .sign-up:hover,
 .sign-up:focus {
-    border-style: solid;
+  border-style: solid;
   border-width: 2px;
   border-color: rgb(255, 255, 255);
   border-radius: 35px;
@@ -183,65 +181,133 @@ h1 {
 /* SECTION "PARTNERS" */
 
 .partners {
-    height: 540px;
-    width: 320px;
-    text-align: center;
+  height: 540px;
+  width: 320px;
+  text-align: center;
 }
 
 .profile-photo {
-    margin: 0 auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 700;
-    color: rgb(51, 51, 51);
-    margin-top: 108px;
-    margin-bottom: 18px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-top: 108px;
+  margin-bottom: 18px;
 }
 
 .partner-name {
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 700;
-    color: rgb(51, 51, 51);
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
 }
 
 .partner-info {
-    font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 300;
-    color: rgb(102, 102, 102);
-}
-
-.profile-photo {
-    margin-bottom: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
 }
 
 .partner-name {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .partner-info {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .see-more {
-    display: block;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 78, 80);
-    border-radius: 20px;
-    width: 284px;
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 44px;
-    font-weight: 700;
-    margin-bottom: 56px;
-    color: rgb(255, 78, 80);
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  width: 284px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 56px;
+  color: rgb(255, 78, 80);
 }
-  
+
+@media (min-width: 768px) {
+    .main-header {
+        background-image: url(../images/bg-2.jpg);
+        width: 768px;
+        height: 700px;
+    }
+
+    .partners {
+        width: 768px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partner-profile {
+        width: 250px;
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        width: 748px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 62px;
+        margin-bottom: 36px;
+    }
+
+    .main-subheader {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+    .main-nav {
+        justify-content: flex-end;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    h2 {
+        margin-top: 72px;
+        margin-bottom: 30px;
+    }
+
+    .partner-info {
+        margin-bottom: 40px;
+    }
+
+    .see-more {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 40px;
+        top: 48px;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+}
