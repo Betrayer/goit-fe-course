@@ -90,3 +90,84 @@ button {
 }
 
 /* HEADER */
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav button,
+.partner-link,
+.logo,
+.header-main {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.main-nav button {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.0px;
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+.main-subheader {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-bottom: 18px;
+}
+
+.main-header {
+  background-color: rgb(0, 0, 0);
+  background-image: url(../images/bg-1.png);
+  object-fit: cover;
+  height: 540px;
+  width: 320px;
+}
+
+.log-in,
+.sign-up {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  width: 94px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 35px;
+  margin-bottom: 118px;
+}
+
+.header-wrapper {
+  text-align: center;
+}
+
+.partner-link {
+    font-size: 14px;
+    line-height: 40px;
+    display: block;
+  background-color: rgb(255, 78, 80);
+  width: 226px;
+  border: 2px solid rgb(255, 78, 80);
+  border-radius: 20px;
+  margin: 0 auto;
+}
