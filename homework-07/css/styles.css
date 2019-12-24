@@ -274,12 +274,9 @@ textarea {
   flex-wrap: wrap;
 }
 
-.input-wrapper {
-  width: 454px;
-}
-
+.input-wrapper,
 .text-area-wrapper {
-  width: 455px;
+  width: 454px;
 }
 
 input:not(:last-child) {
