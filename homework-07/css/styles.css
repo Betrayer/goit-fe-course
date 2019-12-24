@@ -286,12 +286,12 @@ input:not(:last-child) {
   margin-bottom: 28px;
 }
 
-input:required:focus:invalid,
-textarea:required:focus:invalid {
+input:required:invalid,
+textarea:required:invalid {
     border-color: rgb(255, 0, 0);
 }
 
-input:required:focus:valid,
-textarea:required:focus:valid {
+input:required:valid,
+textarea:required:valid {
     border-color: rgb(0, 128, 0);
 }
