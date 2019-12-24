@@ -227,7 +227,7 @@ button {
 }
 .item-name {
   float: left;
-  padding: 14px;
+  padding-left: 14px;
 }
 
 .item-info {
@@ -236,18 +236,24 @@ button {
 
 .item-price {
   float: right;
-  padding: 14px;
-  background-color: rgb(140, 140, 140);
+  padding-left: 14px;
+  line-height: 40px;
+  width: 55px;
+  background-color: rgba(255, 255, 255, .44);
 }
 
-.goods-list a {
+.item-info {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 40px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.item-link {
+  color: rgb(255, 255, 255);
 }
 
 .item-bottom {
@@ -356,10 +362,6 @@ button {
   background-color: rgb(26, 188, 156);
 }
 
-.goods-list-item:hover .item-price,
-.goods-list-item:focus .item-price {
-  background-color: rgb(127, 217, 199);
-}
 
 .action-link:hover,
 .action-link:focus {
