@@ -147,8 +147,8 @@ button {
   line-height: 1.375rem;
   font-weight: 700;
   color: rgb(34, 34, 34);
-  padding-top: 30px;
-  margin-bottom: 16px;
+  padding-top: 1.875rem;
+  margin-bottom: 1rem;
 }
 
 .item-text {
@@ -157,7 +157,7 @@ button {
   line-height: 1rem;
   font-weight: 400;
   color: rgb(119, 119, 119);
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 
 .services-list {
@@ -168,7 +168,7 @@ button {
 
 .services-list-item {
   text-align: center;
-  width: 290px;
+  width: 18.125rem;
 }
 
 .meain-header-container {
@@ -185,8 +185,8 @@ button {
   border-color: rgb(254, 209, 54);
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  width: 72px;
-  height: 71px;
+  width: 4.5rem;
+  height: 4.4375rem;
 }
 
 .basket {
@@ -204,7 +204,7 @@ button {
 /* CONTACTS */
 
 .contact {
-  height: 676px;
+  height: 42.25rem;
   width: 100%;
   background-image: url(../image/map-image.png);
   object-fit: cover;
@@ -220,39 +220,39 @@ button {
   border-color: rgb(204, 204, 204);
   border-radius: 2px;
   background-color: rgb(255, 255, 255);
-  width: 458px;
-  height: 54px;
+  width: 28.625rem;
+  height: 3.375rem;
 }
 
 input {
-    padding-left: 15px;
+    padding-left: 0.9375rem;
 }
 
 ::placeholder {
   font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
   font-weight: 700;
   color: rgb(187, 187, 187);
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-left: 22px;
+  padding-top: 1.25rem;
+  padding-left: 1.375rem;
 }
 
 .message-button {
   border-radius: 3px;
   background-color: rgb(254, 209, 54);
-  width: 240px;
-  height: 66px;
+  width: 15rem;
+  height: 4.125rem;
   font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
   font-weight: 700;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   display: block;
-  margin-top: 30px;
-  margin-left: 350px;
+  margin-top: 1.875rem;
+  margin-left: 21.875rem;
 }
 
 textarea {
@@ -262,25 +262,25 @@ textarea {
   border-color: rgb(204, 204, 204);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  width: 459px;
+  width: 28.6875rem;
   height: 100%;
   outline: none;
 }
 
 .feedback-form {
   display: flex;
-  width: 940px;
+  width: 58.75rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .input-wrapper,
 .text-area-wrapper {
-  width: 454px;
+  width: 28.375rem;
 }
 
 input:not(:last-child) {
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 
 input:required:invalid,
