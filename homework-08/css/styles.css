@@ -311,3 +311,31 @@ h2 {
     }
 
 }
+
+@media (min-width: 1440px){
+    .main-header {
+        background-image: url(../images/bg-3.jpg);
+        width: 1440px;
+        height: 700px;
+    }
+
+    .partners {
+        width: 1440px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 940px;
+    }
+
+    .partner-profile {
+        width: 220px;
+    }
+
+    .logo {
+        left: 250px;
+    }
+
+}
