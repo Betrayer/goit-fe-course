@@ -104,17 +104,20 @@ button {
 .main-menu {
   width: 30rem;
   display: flex;
+  justify-content: space-between;
+}
+
+.main-menu-link {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 0.875rem;
   line-height: 2.5rem;
   font-weight: 700;
   color: rgb(34, 34, 34);
   text-transform: uppercase;
-  justify-content: space-between;
 }
 
-.main-menu-item:hover,
-.main-menu-item:focus {
+.main-menu-link:hover,
+.main-menu-link:focus {
   color: rgb(254, 209, 54);
   cursor: pointer;
 }
@@ -152,7 +155,7 @@ button {
 }
 
 .item-text {
-  font-family: "RobotoSlab", "Arial", sans-serif;
+  font-family: "Roboto Slab", "Arial", sans-serif;
   font-size: 0.875rem;
   line-height: 1rem;
   font-weight: 400;
@@ -178,6 +181,18 @@ button {
 
 .icon {
   margin: 0 auto;
+  position: relative;
+  height: 72px;
+  width: 72px;
+}
+
+.icon::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-image: url(../image/Icon-Basket.png);
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   border-style: solid;
@@ -189,15 +204,11 @@ button {
   height: 4.4375rem;
 }
 
-.basket {
-  background-image: url(../image/Icon-Basket.png);
-}
-
-.laptop {
+.laptop::before {
   background-image: url(../image/Icon-Laptop.png);
 }
 
-.locker {
+.locker::before {
   background-image: url(../image/Icon-Locked.png);
 }
 
@@ -207,7 +218,9 @@ button {
   height: 42.25rem;
   width: 100%;
   background-image: url(../image/map-image.png);
-  object-fit: cover;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .contact h2 {
@@ -224,19 +237,21 @@ button {
   height: 3.375rem;
 }
 
-input {
-    padding-left: 0.9375rem;
-}
-
-::placeholder {
+input,
+textarea {
   font-family: "Montserrat", "Arial", sans-serif;
+  padding-left: 0.9375rem;
   font-size: 0.875rem;
   line-height: 1rem;
+  padding-left: 1.375rem;
+  color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
   font-weight: 700;
   color: rgb(187, 187, 187);
   text-transform: uppercase;
-  padding-top: 1.25rem;
-  padding-left: 1.375rem;
 }
 
 .message-button {
@@ -251,8 +266,8 @@ input {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   display: block;
+  margin: 0 auto;
   margin-top: 1.875rem;
-  margin-left: 21.875rem;
 }
 
 textarea {
@@ -265,6 +280,7 @@ textarea {
   width: 28.6875rem;
   height: 100%;
   outline: none;
+  padding-top: 20px;
 }
 
 .feedback-form {
