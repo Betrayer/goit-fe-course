@@ -276,110 +276,117 @@ h2 {
 /* WEIRD MEDIA SH*T */
 
 @media (min-width: 768px) {
-    .main-header {
-        background-image: url(../images/bg-2.jpg);
-        height: 700px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  .main-header {
+    background-image: url(../images/bg-2.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-    .partners {
-        height: 700px;
-        display: flex;
-        justify-content: center;
-    }
+  .partners {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .partner-profile {
-        width: 250px;
-    }
+  .partner-profile {
+    width: 250px;
+  }
 
-    .partners-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .container {
-        width: 748px;
-    }
+  .partners-list li:nth-child(1) {
+    order: 1;}
+  .partners-list li:nth-child(2) {
+    order: 3;}
+  .partners-list li:nth-child(3) {
+    order: 2;}
+  .partners-list li:nth-child(4) {
+    order: 4;}
 
-    h1 {
-        font-size: 52px;
-        line-height: 62px;
-        margin-bottom: 36px;
-    }
+  .container {
+    width: 748px;
+  }
 
-    .main-subheader {
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 32px;
-    }
+  h1 {
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 36px;
+  }
 
-    .main-nav {
-        justify-content: flex-end;
-        padding-top: 20px;
-        padding-right: 20px;
-    }
+  .main-subheader {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
 
-    h2 {
-        margin-top: 72px;
-        margin-bottom: 30px;
-    }
+  .main-nav {
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
 
-    .partner-info {
-        margin-bottom: 40px;
-    }
+  h2 {
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
 
-    .see-more {
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
+  .partner-info {
+    margin-bottom: 40px;
+  }
 
-    .logo {
-        position: absolute;
-        left: 40px;
-        top: 48px;
-    }
+  .see-more {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 
-    .nav {
-        position: relative;
-    }
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: 48px;
+  }
 
+  .nav {
+    position: relative;
+  }
 }
 
-@media (min-width: 1440px){
-    .main-header {
-        background-image: url(../images/bg-3.jpg);
-        width: 1440px;
-        height: 700px;
-    }
+@media (min-width: 1440px) {
+  .main-header {
+    background-image: url(../images/bg-3.jpg);
+    width: 1440px;
+    height: 700px;
+  }
 
-    .partners {
-        width: 1440px;
-        height: 700px;
-        display: flex;
-        justify-content: center;
-    }
+  .partners {
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .container {
-        width: 940px;
-    }
+  .container {
+    width: 940px;
+  }
 
-    .partner-profile {
-        width: 220px;
-    }
+  .partner-profile {
+    width: 220px;
+  }
 
-    .logo {
-        left: 250px;
-    }
+  .logo {
+    left: 250px;
+  }
 
-    .header-wrapper {
-      width: 500px;
-      margin: 0 auto;
-    }
+  .header-wrapper {
+    width: 500px;
+    margin: 0 auto;
+  }
 
-    .see-more {
-      margin-bottom: 72px;
-    }
-
+  .see-more {
+    margin-bottom: 72px;
+  }
 }
