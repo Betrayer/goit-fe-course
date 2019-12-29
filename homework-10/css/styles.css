@@ -243,7 +243,7 @@ button {
     background-image: linear-gradient(
       rgba(243, 129, 129, 0.9),
       rgba(252, 227, 138, 0.9)
-    ),
+    );
     background-image: url(../img/bg-img-2-min@2x.jpg);
 
   }
