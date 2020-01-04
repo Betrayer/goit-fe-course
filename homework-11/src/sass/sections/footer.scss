@@ -1,0 +1,81 @@
+footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-footer p {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+  }
+  
+  .main-footer a {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(246, 161, 161);
+  }
+  
+  .action {
+    font-family: "Monserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    background-color: #95e1d3;
+    text-transform: uppercase;
+  }
+  
+  .typing-window {
+    height: 40px;
+    width: 230px;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+  }
+  
+  ::placeholder {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(204, 204, 204);
+  }
+  
+  input {
+    padding-left: 15px;
+  }
+  
+  footer .container {
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .team::after {
+    margin: 0 auto;
+    display: block;
+    width: 1200px;
+    height: 1px;
+    margin-top: 80px;
+    background-color: rgb(229, 229, 229);
+    content: "";
+  }
+  
+  .license-info {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+  }
+  
+  .license-info a {
+    color: rgb(243, 129, 129);
+  }
