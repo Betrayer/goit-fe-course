@@ -1,6 +1,6 @@
 .services__subheader-top,
 .team__subheader-top {
-  font-family: "Kaushan Script", "Arial", sans-serif;
+  font-family: $kaushan__font;
   font-size: 1.5rem;
   line-height: 1.75rem;
   font-weight: 400;
@@ -20,7 +20,7 @@
   width: 60px;
   height: 3px;
   background-color: rgb(243, 129, 129);
-  content: "";
+  content: '';
 }
 
 .services__header::first-letter,
@@ -30,7 +30,7 @@
 
 .services__subheader-bottom,
 .team__subheader-bottom {
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: $montserrat__font;
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
@@ -44,27 +44,6 @@
 .team__header,
 .team_subheader {
   text-align: center;
-}
-
-.services__list--header {
-  font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: rgb(51, 51, 51);
-  margin-bottom: 8px;
-}
-
-.services__list--item {
-  content: "";
-  background-image: url(../images/alarm.svg);
-  background-repeat: no-repeat;
-  background-position: bottom 40px left 20px;
-  width: 382px;
-  height: 70px;
-  display: flex;
-  flex-direction: column;
 }
 
 .services__list--item:nth-child(2) {
@@ -91,118 +70,39 @@
   margin-bottom: 98px;
 }
 
-.services__list--info {
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
-  color: rgb(153, 153, 153);
-}
-
-.services__list--header,
-.services__list--info {
-  padding-left: 82px;
-}
-
 .services__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 90px;
-}
-
-/* TEAM */
-
-.team-text {
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  color: rgb(153, 153, 153);
-  margin-bottom: 94px;
-  text-align: center;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(
-    0deg,
-    rgba(252, 227, 138, 0.9) 0%,
-    rgba(243, 129, 129, 0.9) 100%
-  );
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  visibility: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.socials__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(252, 227, 138);
-  width: 56px;
-  height: 56px;
-}
-
-.socials__icon--facebook,
-.socials__icon--twitter,
-.socials__icon--pinterest,
-.socials__icon--instagram {
-  fill: rgb(243, 129, 129);
-}
-
-.social-buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.social-buttons li:not(:last-child) {
-  margin-right: 1px;
-}
-
-.social-buttons a:hover {
-  background-color: rgb(243, 129, 129);
-}
-
-.socials__icon:hover svg {
-  fill: rgb(255, 255, 255);
-}
-
-.team-info:hover .overlay {
-  visibility: visible;
-  opacity: 1;
-}
-
-.team-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.member-name {
-  font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 400;
-  color: rgb(51, 51, 51);
-  text-transform: uppercase;
-  margin-top: 30px;
-}
-
-.member-occupation {
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  color: rgb(153, 153, 153);
-  font-weight: 300;
-  margin-top: 10px;
-}
-.team-info-holder:hover {
-  transform: translate(-10px, -10px);
-  box-shadow: 10px 10px rgb(149, 225, 211);
-  transition: 0.2s linear;
+  &--item {
+    content: '';
+    background-image: url(../images/alarm.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 40px left 20px;
+    width: 382px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  &--header {
+    font-family: $montserrat__font;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $grey__51;
+    margin-bottom: 8px;
+  }
+  &--info {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $grey__153;
+  }
+  &--header,
+  &--info {
+    padding-left: 82px;
+  }
 }
