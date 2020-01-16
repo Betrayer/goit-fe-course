@@ -310,3 +310,15 @@ textarea:required:focus:valid {
     outline: 10px;
     border-color: rgb(0, 128, 0);
 }
+
+input:required:focus:invalid,
+textarea:required:focus:invalid {
+    outline: 1px;
+    border-color: rgb(255, 0, 0);
+}
+
+input:required:focus:valid,
+textarea:required:focus:valid {
+    outline: 10px;
+    border-color: rgb(0, 128, 0);
+}
